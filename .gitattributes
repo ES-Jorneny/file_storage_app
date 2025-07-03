@@ -1,0 +1,8 @@
+# Ignore non-Dart/Flutter files from language stats
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+assets/* linguist-vendored
+
+# Prioritize Dart files
+*.dart linguist-language=Dart
