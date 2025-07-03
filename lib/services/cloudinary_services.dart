@@ -129,7 +129,7 @@ Future<bool> downloadFileFromCloudinary(String url,String fileName)async{
     }
     Directory? downloadDir=Directory("/storage/emulated/0/Download");
     if(!downloadDir.existsSync()){
-      print('download directory na found');
+      print('download directory not found');
       return false;
     }
     String filePath="${downloadDir.path}/$fileName";

@@ -34,16 +34,25 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  # for api
   http: ^1.4.0
+  # for pick file
   file_picker: ^10.2.0
+  # for secure api key
   flutter_dotenv: ^5.2.1
+  # for firebase storage
   firebase_core: ^3.14.0
   firebase_auth: ^5.6.0
   cloud_firestore: ^5.6.9
+  # for display video
   video_player: ^2.10.0
+  # for show progress
   percent_indicator: ^4.2.5
+  # for view pdf
   syncfusion_flutter_pdfviewer: ^30.1.37
+  # for delete file from cloudinary use sha1
   crypto: ^3.0.6
+  # for download file on cloudinary
   path_provider: ^2.1.5
   permission_handler: ^12.0.0+1
 
